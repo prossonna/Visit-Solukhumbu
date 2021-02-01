@@ -1,0 +1,286 @@
+/* Heading */
+h1.heading {
+    margin-bottom: 1rem;
+}
+/* header content */
+p.content {
+    margin-bottom: 70px;
+}
+/* input tag*/
+input[type="text"] {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #EEF3F6;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+/* textarea content */
+textarea {
+    width: 100%;
+    margin-bottom: 10px !important;
+    background-color: #EEF3F6;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+/* button */
+button.submit {
+    background-color: #2B92DF;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+/* Hotel & Lodge */
+/* Top Heading */
+.header-image-hotel {
+    width: 100%;
+    opacity: 1;
+    height: 400px;
+}
+h1.header {
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+    padding-top: 20rem;
+}
+/* Image and Content */
+.hotel-package{
+    display: flex;
+    border-radius: 10px;
+    background-color: #EEF3F6;
+    margin: 1rem 0;
+}
+.package {
+    width: 50%;
+    border: none;
+}
+.package-content {
+    width: 50%;
+    padding: 0 15px;
+    color: #2B92DF;
+}
+/* under pakage content */
+.hotel-name {
+    margin-top: 15px;
+}
+.rate {
+    margin-bottom: 15px;
+}
+.highlight-1 {
+    margin-bottom: 15px;
+}
+.contact-1 {
+    margin-bottom: 15px;
+}
+.package img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 8px 4px 16px #00000038;
+}
+
+/* Prepare Your Trip */
+/* Header Image */
+.header-image {
+    width: 100%;
+    opacity: 1;
+}
+h1.trip {
+    text-align: center;
+    padding-top: 230px;
+    color: #121212;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+p.description {
+    text-align: center;
+    margin-bottom: 60px;
+}
+h3.places {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+p.tab-description {
+    text-align: justify;
+}
+img.place {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+img.hotels {
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.bg-c {
+    height: 200px;
+    width: 100%;
+}
+.bg1 {
+    position: relative;
+}
+.bg2 {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: #EEF3F6;
+    bottom: 225px;
+    z-index: -1;
+}
+img.map {
+    border-radius: 10px;
+}
+
+.images-list {
+    position: relative;
+}
+
+/* Attraction */
+.header-image-attraction {
+    width: 100%;
+    opacity: 1;
+}
+h1.attraction {
+    text-align: center;
+    padding-top: 230px;
+    color: #121212;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+img.destinationn-places {
+    height: 250px;
+    width: 2300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+img.destination-img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.bg3 {
+    position: relative;
+}
+.bg4 {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: #EEF3F6;
+    top: 160px;
+    z-index: -1;
+}
+.bg5 {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: #EEF3F6;
+    bottom: 300px;
+    z-index: -1;
+}
+p.places-content {
+    font-size: 12px;
+    text-align: justify;
+}
+.bcg-1 {
+    position: relative;
+}
+.bcg-2 {
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 25px;
+    background: #2B92DF;
+    top: -5px;
+    left: 25px;
+    z-index: -1;
+}
+img.activities-img {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Culture & Events */
+.header-image-culture {
+    width: 100%;
+    opacity: 1;
+}
+h1.culture-events {
+    text-align: center;
+    padding-top: 230px;
+    color: #121212;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+img.culture-events-img {
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.events1-2{
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+/* Blog */
+h1.blog-header {
+    margin-bottom: 0;
+}
+.wrap-jewel {
+    margin-bottom: 30px;
+}
+.jewel-of-solukhumbu1 {
+    height: 350px;
+    width: 92%;
+}
+.latest-content {
+    margin:5px 0 5px 0;
+    font-size: 14px;
+}
+.sidebar {
+    margin-top: 20px;
+    color: black;
+}
+.sidebar a {
+    color: black;
+}
+.jewel-of-solukhumbu1-content {
+    width: 92%;
+    margin-top: 20px;
+}
+.see-more {
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* single blog */
+.archieve {
+    background-color: #2B92DF;
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+.archieve a {
+    color: #FFFFFF;
+}

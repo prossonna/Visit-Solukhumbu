@@ -1,0 +1,818 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#navDesktop {
+    position: fixed;
+    width: 100%;
+    padding: 10px 160px 50px 160px;
+    z-index: 2;
+    background: linear-gradient(180deg, gray, transparent);
+}
+
+a.nav-link {
+    color: white;
+}
+
+ul.navbar-nav.mx-auto {
+    align-items: center;
+}
+
+li.nav-item {
+    position: relative;
+    padding: 0 18px;
+}
+
+ul.dropdown-menu.show {
+    background: transparent;
+    padding: 0 25px;
+    border: none;
+}
+
+ul.dropdown-menu.show a{
+    color: white;
+}
+
+img.logo-img {
+    height: 75px;
+    width: auto;
+    margin: 0 5px;
+}
+
+video{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+
+.second{
+    text-align: right;
+}
+
+.home-slider-text {
+    position: absolute;
+    left: 26%;
+    font-size: 60px;
+    top: 30%;
+    z-index: 1;
+    color: white;
+    text-shadow: 0px 4px 6px #231F208F;
+}
+
+.main-slider{
+    position: relative;
+}
+
+.slider-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(30, 144, 255, 0.3);
+    z-index: 0;
+}
+
+.slider-caption{
+    position: absolute;
+    bottom: 53px;
+    left: 230px;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.slider-caption:before{
+    display: inline-block;
+    content: '';
+    height: 3px;
+    width: 300px;
+    background: white;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#homeSlider .owl-nav {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+
+#homeSlider img {
+    height: 650px !important;
+    object-fit: cover;
+}
+
+#homeSlider i.fa.fa-chevron-left, #homeSlider i.fa.fa-chevron-right {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+#homeSlider button.owl-prev:hover, #homeSlider button.owl-next:hover {
+    background: none!important;
+}
+
+#homeSlider button.owl-prev, #homeSlider button.owl-next {
+    outline: none;
+}
+
+#homeSlider i.fa.fa-chevron-left:hover, #homeSlider i.fa.fa-chevron-right:hover {
+    background: #2B92DF !important;
+    color: white;
+}
+
+#aboutUs{
+    position: relative;
+    padding: 50px 0 110px 0;
+}
+
+.abt-img-row {
+    display: flex;
+    justify-content: center;
+}
+
+.abt-img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.abt-img-wrap{
+    position: relative;
+    transition: transform 0.5s ease;
+    width: 100%;
+    margin: 18px;
+}
+
+.abt-img-wrap:hover{
+    transform: scale(1.1);
+}
+
+.text-img{
+    position: absolute;
+    bottom: 20px;   
+    color: white;
+    opacity: 0;
+    text-align: center;
+    background: rgba(0,0,0,0);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.abt-img-wrap:hover .text-img{
+    opacity: 1;
+    background: rgba(0,0,0,0.6);
+}
+
+
+.about-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+a.abt-read-more {
+    background: #2B92DF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.about-text{
+    margin-bottom: 40px;
+}
+
+img.mountain-bg {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.section-header{
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-tagline{
+    text-align: center;
+    font-size: 14px;
+    color: #9F9F9F;
+    margin-bottom: 60px;
+}
+
+.popular-bg {
+    position: absolute;
+    bottom: 33%;
+    height: 280px;
+    width: 100%;
+    background: #EEF3F6;
+    z-index: -1;
+}
+
+.popular-card{
+    position: relative;
+    max-width: 320px;
+}
+
+.popular-img-wrap{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.explore-btn{
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.popular-img-wrap:hover .explore-btn{
+    opacity: 1;
+}
+
+.explore-btn a {
+    color: white;
+    background: #2B92DF;
+    padding: 10px 20px;
+}
+
+.popular-img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.popular-title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.popular-text {
+    color: #9F9F9F;
+    font-size: 13px;
+}
+
+.card-top{
+    position: absolute;
+    top: -10px;
+    left: 15%;
+    width: 70%;
+    height: 50px;
+    background: #2B92DF;
+    z-index: -1;
+}
+
+#footer-top{
+    padding-top: 380px;
+    padding-bottom: 40px;
+    background: #EEF3F6;
+    clip-path: polygon(0 60%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.first li{
+    margin: 8px 0;
+}
+
+.first a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-contact {
+    font-weight: 600;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-email {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.social-icons .fab {
+    color: black;
+    font-size: 20px;
+}
+
+.privacy-links {
+    text-align: right;
+}
+
+#copyright {
+    padding: 15px 0;
+    background: #0054A5;
+    color: #CCCCCC;
+}
+
+#copyright a{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+.privacy {
+    margin-right: 70px;
+}
+
+#popular-destinations, #cultural-events, #videos, #peoples-opinion, #partners{
+    position: relative;
+    padding: 50px 0;
+}
+
+.people-bg {
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 100%;
+    background: #EEF3F6;
+    z-index: -1;
+}
+
+.people-img-wrap{
+    text-align: center;
+}
+
+.people-img{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-center{
+    text-align: center;
+}
+
+.people-name-age{
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.people-address{
+    font-weight: 600;
+}
+
+#videos iframe {
+    width: 100% !important;
+    height: 250px !important;
+    border-radius: 25px !important;
+}
+
+#peopleSlider .owl-carousel .owl-item img {
+    height: 200px;
+    width: 200px !important;
+    object-fit: cover;
+}
+
+#peopleSlider button.owl-prev:hover, #peopleSlider button.owl-next:hover {
+    background: none!important;
+}
+
+#peopleSlider button.owl-prev, #peopleSlider button.owl-next {
+    outline: none;
+}
+
+#peopleSlider i.fa.fa-chevron-left:hover, #peopleSlider i.fa.fa-chevron-right:hover {
+    background: none !important;
+    color: black;
+}
+
+img.partner-img {
+    height: 165px !important;
+    object-fit: contain !important;
+}
+
+.partner-name{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cultural-bg{
+    position: absolute;
+    top: 0;
+    background: #EEF3F6;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 0 60%, 100% 0);
+    z-index: -1;
+}
+
+.culture-event-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.culture-event-text {
+    color: #9F9F9F;
+    margin-bottom: 18px;
+}
+
+a.read-more-btn {
+    color: white;
+    background: #2B92DF;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+/* Heading */
+h1.heading {
+    margin-bottom: 1rem;
+}
+/* header content */
+p.content {
+    margin-bottom: 70px;
+}
+/* input tag*/
+input[type="text"] {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #EEF3F6;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+/* textarea content */
+textarea {
+    width: 100%;
+    margin-bottom: 10px !important;
+    background-color: #EEF3F6;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+/* button */
+button.submit {
+    background-color: #2B92DF;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+/* Hotel & Lodge */
+/* Top Heading */
+.header-image-hotel {
+    width: 100%;
+    opacity: 1;
+    height: 400px;
+}
+h1.header {
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+    padding-top: 20rem;
+}
+/* Image and Content */
+.hotel-package{
+    display: flex;
+    border-radius: 10px;
+    background-color: #EEF3F6;
+    margin: 1rem 0;
+}
+.package {
+    width: 50%;
+    border: none;
+}
+.package-content {
+    width: 50%;
+    padding: 0 15px;
+    color: #2B92DF;
+}
+/* under pakage content */
+.hotel-name {
+    margin-top: 15px;
+}
+.rate {
+    margin-bottom: 15px;
+}
+.highlight-1 {
+    margin-bottom: 15px;
+}
+.contact-1 {
+    margin-bottom: 15px;
+}
+.package img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 8px 4px 16px #00000038;
+}
+
+/* Prepare Your Trip */
+/* Header Image */
+.header-image {
+    width: 100%;
+    opacity: 1;
+}
+h1.trip {
+    text-align: center;
+    padding-top: 230px;
+    color: #121212;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+p.description {
+    text-align: center;
+    margin-bottom: 60px;
+}
+h3.places {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+p.tab-description {
+    text-align: justify;
+}
+img.place {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+img.hotels {
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.bg-c {
+    height: 200px;
+    width: 100%;
+}
+.bg1 {
+    position: relative;
+}
+.bg2 {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: #EEF3F6;
+    bottom: 225px;
+    z-index: -1;
+}
+img.map {
+    border-radius: 10px;
+}
+
+.images-list {
+    position: relative;
+}
+
+/* Attraction */
+.header-image-attraction {
+    width: 100%;
+    opacity: 1;
+}
+h1.attraction {
+    text-align: center;
+    padding-top: 230px;
+    color: #121212;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+img.destinationn-places {
+    height: 250px;
+    width: 2300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+img.destination-img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.bg3 {
+    position: relative;
+}
+.bg4 {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: #EEF3F6;
+    top: 160px;
+    z-index: -1;
+}
+.bg5 {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: #EEF3F6;
+    bottom: 300px;
+    z-index: -1;
+}
+p.places-content {
+    font-size: 12px;
+    text-align: justify;
+}
+.bcg-1 {
+    position: relative;
+}
+.bcg-2 {
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 25px;
+    background: #2B92DF;
+    top: -5px;
+    left: 25px;
+    z-index: -1;
+}
+img.activities-img {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Culture & Events */
+.header-image-culture {
+    width: 100%;
+    opacity: 1;
+}
+h1.culture-events {
+    text-align: center;
+    padding-top: 230px;
+    color: #121212;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+img.culture-events-img {
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.events1-2{
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+/* Blog */
+h1.blog-header {
+    margin-bottom: 0;
+}
+.wrap-jewel {
+    margin-bottom: 30px;
+}
+.jewel-of-solukhumbu1 {
+    height: 350px;
+    width: 92%;
+}
+.latest-content {
+    margin:5px 0 5px 0;
+    font-size: 14px;
+}
+.sidebar {
+    margin-top: 20px;
+    color: black;
+}
+.sidebar a {
+    color: black;
+}
+.jewel-of-solukhumbu1-content {
+    width: 92%;
+    margin-top: 20px;
+}
+.see-more {
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+.all-photos {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+img.gallery-slide {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+img.gallery-right {
+    width: 100%;
+    height: 44.5%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#gallerySlider i.fa.fa-chevron-left, #gallerySlider i.fa.fa-chevron-right{
+    position: absolute;
+    bottom: 15%;
+    color: black;
+    background: white;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+#gallerySlider i.fa.fa-chevron-left{
+    left: 9%;
+    padding: 15px 19px 15px 18px;
+}
+
+#gallerySlider i.fa.fa-chevron-right{
+    right: 9%;
+    padding: 15px 18px 15px 19px;
+}
+
+#gallerySlider .owl-stage-outer{
+    border-radius: 20px;
+}
+
+#gallery {
+    padding: 50px 0;
+}
+
+.gallery-slide-caption {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 5px;
+}
+
+
+.main-gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+
+.gallery-item:nth-child(3){
+    grid-row: span 2;
+}
+
+.gallery-item:nth-child(10){
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.gallery-item:nth-child(1), .gallery-item:nth-child(8){
+    height: 270px;
+}
+
+.gallery-item:nth-child(5), .gallery-item:nth-child(11){
+    height: 300px;
+}
+
+.gallery-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gallery-item:hover{
+    transition: all 1s ease-in-out;
+}
+
+img.gallery-img, img.gallery-right{
+    transition: transform .5s ease-in-out;
+}
+
+img.gallery-img:hover, img.gallery-right:hover{
+    transform: scale(1.06);
+}
